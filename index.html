@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconhecimento de Fala com Tradução</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="buttons">
+        <button class="play" onclick="startRecognition()">Iniciar Reconhecimento</button>
+        <button class="toggle-translation" onclick="toggleTranslation()">Ativar/Desativar Tradução</button>
+    </div>
+
+    <div class="caption">
+        <p id="translationStatus" class="status-text">Tradução ativada</p>
+        <p id="transcribedText" class="transcribed-text">O texto transcrito aparecerá aqui.</p>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
